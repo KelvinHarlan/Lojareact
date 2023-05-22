@@ -13,9 +13,9 @@ function NavBar() {
 
     const [isTrue, setIsTrue] = useState(false);
 
-   useEffect(()=>{
+    useEffect(() => {
 
-   },[isTrue])
+    }, [isTrue])
 
 
 
@@ -35,12 +35,12 @@ function NavBar() {
             <div className="iconBoxNav">
                 <ul>
                     <li className='search'>
-                       {isTrue &&(
-                         <input type="search" />
-                       )}
+                        {isTrue && (
+                            <input type="search" />
+                        )}
                     </li>
                     <li>
-                        <a onClick={()=>{setIsTrue(!isTrue)}} type='button'><FaSearch /></a>
+                        <a onClick={() => { setIsTrue(!isTrue) }} type='button'><FaSearch /></a>
                     </li>
                     <li>
                         <a href="#"><FaShoppingCart /></a>

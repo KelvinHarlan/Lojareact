@@ -1,0 +1,15 @@
+.card-blue{
+    box-shadow: 5px 5px 0px #0071ff;
+}
+
+.card-green{
+    box-shadow: 5px 5px 0px #00ff6a;
+}
+
+.card-purple{
+    box-shadow: 5px 5px 0px #800080;
+}
+
+.card-orange{
+    box-shadow: 5px 5px 0px #ffa500;
+}

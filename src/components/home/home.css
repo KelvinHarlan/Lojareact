@@ -1,0 +1,95 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background: rgb(174, 78, 252);
+    background: linear-gradient(128deg, rgba(174, 78, 252, 1) 2%, rgba(139, 78, 252, 1) 51%, rgba(139, 78, 252, 1) 100%);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+    max-height: 720px;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-height: 720px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.sales p {
+    text-align: center;
+}
+
+
+.textSales {
+    font-size: 5em;
+    margin: 0;
+    font-weight: 500;
+
+}
+
+/*categories*/
+
+.categories ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #252525;
+    color: #000;
+}
+
+.categories ul li {
+    list-style: none;
+    display: flex;
+    width: 100%;
+
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 5em;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 50px 10px 50px 10px;
+    cursor: pointer;
+    
+
+}
+
+
+
+.categories ul li a:hover {
+    opacity: .9;
+    transition: .5s;
+    color: #fff;
+    background-color: #5f5f5f;
+
+}

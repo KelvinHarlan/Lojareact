@@ -1,0 +1,31 @@
+button{
+    cursor: pointer;
+}
+
+.button-solid{
+    height:5vw;
+    width: 12vw;
+    border: none;
+    border-radius: 5px;
+    margin: 1vw;
+    font-weight: bolder;
+}
+
+.button-transparent{
+    height:5vw;
+    width: 12vw;
+    border: none;
+    border-radius: 5px;
+    margin: 1vw;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #494949;
+    color: #fff;
+    transition: .5s;
+  
+}
