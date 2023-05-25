@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #252525;
+    flex-wrap: wrap;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2px;
+}
+
+.footer a:hover{
+    color: rgb(131, 131, 131);
+}
+
+
+.footer-box{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    width: 20%;
+    min-width: 200px;
+}
+

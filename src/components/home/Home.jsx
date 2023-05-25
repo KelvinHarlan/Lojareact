@@ -13,7 +13,7 @@ function Home() {
                     <p>Lorem ipsum dolor sit amet consectetur eum, est modi facilis iusto veritatis iste quis!</p>
                     <div className='button-box'>
                         <Button classElement='button-solid' text='Mais' />
-                        <Button classElement='button-transparent' text='more' />
+                        <Button classElement='button-transparent' text='Comprar' />
                     </div>
                 </section>
                 <section className='logo'>
