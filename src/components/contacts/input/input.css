@@ -1,0 +1,14 @@
+.input-contact{
+    height: 4vw;
+    min-height: 50px;
+    margin: 0 10px 0 10px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-contact::placeholder{
+    color: #000;
+}
