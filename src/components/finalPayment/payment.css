@@ -1,0 +1,34 @@
+.payment_credit_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 10px;
+}
+.payment_credit_title{
+    text-align: center;
+    font-weight: 300;
+}
+.payment_button_box{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+.payment_credit_box button{
+    max-width: 200px;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #808080;
+    color: #fff;
+    margin: 5px;
+  
+}
+
+.payment_credit_box button:hover{
+    background-color: #5dd85d;
+}

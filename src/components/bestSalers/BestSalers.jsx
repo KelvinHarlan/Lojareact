@@ -1,30 +1,58 @@
 import './bestSalers.css';
 import products from '../products/dataProducts';
+import Modal from '../modal/Modal';
+import { useState } from 'react';
 
-const productFilter = products.map((el) => {
 
-    const price = el.price;
-    const title = el.title;
-    const img = el.img;
 
-    return (
-        <li key={el.id} className='salers-list'>
-            <h3 className='categories-title' >{title}</h3>
-            <img src={img} alt="image" />
-            <p className='price'>R$ {price}</p>
-        </li>
-    )
-})
 
-function BestSalers() {
+const BestSalers = ({ product }) => {
+
+    const onClose = () => {
+        setShowDescrition(!showDescrition)
+    }
+    const [showDescrition, setShowDescrition] = useState(false);
+    const [finish, setFinish] = useState(false);
+
 
     return (
+
         <>
-            {productFilter}
+
+            <li className='salers-list'>
+                <h3 className='categories-title' >{product['title']}</h3>
+                <img src={product['img']} alt="image" />
+                <p className='price'>R$ {product['price']}</p>
+                <button onClick={onClose} className='buy'>Comprar</button>
+
+
+            </li>
+
+            
+
+            {
+
+                showDescrition &&
+                <Modal
+                    productTitle={product['title']}
+                    productImg={product['img']}
+                    productPrice={product['price']}
+                    onClose={onClose}
+
+                />
+
+
+            }
+
+            
+           
+
         </>
+        
     )
 
 
 }
+
 
 export default BestSalers;

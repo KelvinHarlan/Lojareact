@@ -13,7 +13,7 @@ const products = [
         title: 'Caixa de som',
         descrition: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa...',
         img: img01,
-        price: 280
+        price: 280.96
        
     },
 
@@ -22,7 +22,7 @@ const products = [
         title: 'Smart Watch',
         descrition: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa...',
         img: img02,
-        price: 189
+        price: 189.99
     },
 
     {
@@ -30,7 +30,7 @@ const products = [
         title: 'Câmera wifi',
         descrition: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa...',
         img: img03,
-        price: 480
+        price: 480.99
     },
 
     {
@@ -38,7 +38,7 @@ const products = [
         title: 'Headset',
         descrition: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa...',
         img: img04,
-        price: 680
+        price: 680.95
     }
 
 

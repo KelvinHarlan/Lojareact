@@ -1,0 +1,97 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    overflow-y: auto;
+  }
+  
+  .modal {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: #000;
+    
+   
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+   
+  }
+
+  .modal-close-button:hover{
+    background-color: #494949;
+  }
+
+  .product-modal{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .img_modal{
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .product-modal label, .modal_finish label{
+    align-self: flex-start;
+    color: #000;
+  }
+
+  .modal_descrition{
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .modal_finish{
+    padding: 10px;
+    background: #efefef;
+    border-radius: 10px;
+  }
+
+  .modal_price{
+    color: rgb(79, 184, 79);
+    font-weight: bold;
+    margin: 0 10px;
+   
+  
+  }
+  
+  .button_finish_modal_box{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 20px 0 0;
+  }
+
+  .button_finish_modal{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: #5dd85d;
+    border-radius:10px;
+    font-weight: bold;
+    color: #000;
+  }

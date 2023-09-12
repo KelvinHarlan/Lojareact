@@ -1,0 +1,71 @@
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.form_box{
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
+form{
+    margin: 20px;
+    width: 50%;
+    max-width: 400px;
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.form_box input{
+    height: 40px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    text-indent:10px;
+}
+
+.data_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.data_card input{
+    text-align: center;
+    width: 30%;
+    text-indent: 0;
+}
+
+.button_payment_box{
+    display: flex; 
+}
+
+.logo_credit_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_credit{
+    width: 50%;
+    max-width: 550px;
+}
+
+
+@media (max-width: 768px){
+    .logo_credit_box{
+        display: none;
+    }
+    form{
+        width: 100%;
+    }
+}

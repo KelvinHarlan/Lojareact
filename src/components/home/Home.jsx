@@ -3,6 +3,7 @@ import Button from '../button/Button';
 import logo from '../../imagens/logo.png';
 import CardCategories from '../categories/CardCategories';
 import BestSalers from '../bestSalers/bestSalers';
+import products from '../products/dataProducts';
 
 function Home() {
     return (
@@ -30,7 +31,9 @@ function Home() {
             </section>
             <section className='best-salers'>
                 <ul className='salers-ul'>
-                    <BestSalers />
+                    {products.map(product =>(
+                        <BestSalers key={product['id']} product={product} />
+                    ))}
                 </ul>                
             </section>
         </main>

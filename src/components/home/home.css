@@ -1,3 +1,6 @@
+
+
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -43,7 +46,7 @@
 
 
 .textSales {
-    font-size: 5em;
+    font-size: 5rem;
     margin: 0;
     font-weight: 500;
 
@@ -101,3 +104,52 @@
     margin: 0;
     background: linear-gradient(128deg, rgba(174, 78, 252, 1) 2%, rgba(139, 78, 252, 1) 51%, rgba(139, 78, 252, 1) 100%);
 }
+
+
+@media (max-width:375px){
+    .salers-ul li{
+        min-width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .categories ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .categories ul li{
+        width: 50%;
+    }
+    .categories ul li a{
+        margin: 10px;
+    }
+
+    .salers-ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .salers-ul li {
+        flex: auto;
+        max-width: 200px;
+    }
+    .textSales{
+       font-size: 2rem;
+    }
+
+    .button-box button{
+        width: 100%;
+        height: 40px;
+    }
+    .social-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-close-button{
+        top: 30px;
+        width: 20% !important;
+    }
+  }

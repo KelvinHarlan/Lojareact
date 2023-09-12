@@ -7,7 +7,6 @@
     flex-direction: column;
     margin: 5px;
     max-width: 350px;
-    max-height: 350px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -34,4 +33,9 @@
     color: rgb(0, 238, 255);
     font-size: .8em;
     
+}
+
+.buy{
+    padding: 30px;
+    border: none;
 }

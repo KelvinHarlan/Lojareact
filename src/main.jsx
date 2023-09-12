@@ -5,7 +5,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/home/Home.jsx'
 import Contacts from './components/contacts/Contacts.jsx';
-
+import Payment from './components/finalPayment/Payment.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "contacts",
         element: <Contacts />
+      },
+      {
+        path: "payment",
+        element: <Payment />
       }
     ]
   },
